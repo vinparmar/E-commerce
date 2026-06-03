@@ -1,0 +1,16 @@
+for project run 
+py manage.py runserver 
+
+for database 
+py manage.py migrate 
+
+for new models 
+py manage.py makemigrations 
+
+for new user 
+py manage.py createsuperuser 
+
+change password 
+py manage.py changepassword username 
+
+
